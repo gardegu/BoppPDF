@@ -49,6 +49,10 @@ class IntCabestan(Screen):
 
         layout2.add_widget(Label(text="Cabestan", size_hint=(1, None), height=100, bold=True, font_size=40)) 
 
+        layout.add_widget(Label(text="Dénomination :"))
+        layout.add_widget(Label(text="Valeur BE :"))
+        layout.add_widget(Label(text="Valeur Intervenant :"))
+
         layout.add_widget(Label(text="5T traction statique :"))
         self.Cb_5T_traction_statique = TextInput(hint_text="", size_hint=(1, None), height=100, multiline=False, readonly=True)
         self.int_Cb_5T_traction_statique = TextInput(hint_text="", size_hint=(1, None), height=100,

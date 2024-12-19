@@ -88,17 +88,22 @@ class UserManager:
         Returns:
             None
         """
-        if role == 'admin' and code != '?WVBX7sy':
-            raise ValueError("Code d'autorisation incorrect pour le rôle admin.")
+        role_codes = {
+        'BE': '?WVBX7sy',
+        'Technicien': 'e4Zz#{R2',
+        'Developpeur': 'T-k3bP5Y',
+        'Visiteur': ''
+        }
+        if role not in role_codes:
+            return False, f"Rôle '{role}' non reconnu."
         
-        if role == 'technicien' and code != "e4Zz#{R2":
-            raise ValueError("Code d'autorisation incorrect pour le rôle technicien.")
-        
-        if role == 'dev' and code != "T-k3bP5Y":
-            raise ValueError("Code d'autorisation incorrect pour le rôle dev.")
+        if code != role_codes[role]:
+            return False, f"Code d'autorisation incorrect pour le rôle {role}."
         
         self.users[user_id] = User(user_id, password, role, is_new=True)
         self.save_users()
+
+        return True, "Utilisateur validé"
 
     def authenticate(self, user_id, input_password):
         """

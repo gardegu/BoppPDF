@@ -54,7 +54,7 @@ class NewUser(Screen):
         layout.add_widget(self.user_mdp)
 
         layout.add_widget(Label(text="Rôle :"))
-        self.role_spinner = Spinner(text='Choisir un rôle', color=[1,1,1,1], values=("Bureau d'etudes", 'Technicien', 'Visiteur', 'Developpeur'))
+        self.role_spinner = Spinner(text='Choisir un rôle', color=[1,1,1,1], values=("BE", 'Technicien', 'Visiteur', 'Developpeur'))
         layout.add_widget(self.role_spinner)
 
         layout.add_widget(Label(text="Code de rôle : (vide si visiteur)"))
@@ -90,26 +90,31 @@ class NewUser(Screen):
         Returns:
           None
         """
-        id = self.user_id.text
-        pw = self.user_mdp.text
-        role = self.role_spinner.text
-        code = self.role_code.text if (role == 'Administrateur' or role == 'Technicien' or role == 'Developpeur') else None
-
-        if not self.validate_password(pw):
-            self.show_popup("Erreur", "Le mot de passe n'est pas assez fort (au moins 8 caractères, une Majuscule, une minuscule, un chiffre et un caractère spécial)")
-            return 
-        
-        if not self.validate_id(id):
-            self.show_popup("Erreur", "Cet identifiant existe déjà.")
-            return 
-        
         try:
-            self.user_manager.add_user(id, pw, role, code)
-            self.show_popup("Succès", "Compte créé avec succès!")
-            self.go_to_main_menu()
-        except ValueError as e:
-            self.show_popup("Erreur", str(e))
+          id = self.user_id.text
+          pw = self.user_mdp.text
+          role = self.role_spinner.text
+          code = self.role_code.text #if (role == 'BE' or role == 'Technicien' or role == 'Developpeur') else None
 
+          if not self.validate_password(pw):
+              self.show_popup("Erreur : le mot de passe n'est pas assez fort (au moins 8 caractères, une Majuscule, une minuscule, un chiffre et un caractère spécial)")
+              # return 
+          
+          if not self.validate_id(id):
+              self.show_popup("Erreur : Cet identifiant existe déjà.")
+              # return 
+          
+          try:
+              create, err = self.user_manager.add_user(id, pw, role, code)
+              if create == True:
+                self.show_popup("Succès : compte créé avec succès!")
+                self.go_to_main_menu(role)
+              else:
+                  self.show_popup(f"Erreur lors de la création du compte : {err}")
+          except Exception as e:
+              self.show_popup(f"Erreur : {e}")
+        except Exception as e:
+          self.show_popupf(f"Erreur : {e}")
 
     def validate_password(self, password):
         """
@@ -159,9 +164,17 @@ class NewUser(Screen):
         dismiss_button.bind(on_press=popup.dismiss)
         popup.open()
 
-    def go_to_main_menu(self):
+    def go_to_main_menu(self,role):
         """ 
         Passe à l'écran du menu principal
         """
-        self.manager.current='main_menu'
+        if role == "BE":
+            self.manager.current = 'main_menu'
+        elif role == "Technicien":
+            self.manager.current = "main_menu_int"
+        elif role == "Developpeur":
+            self.manager.current = "main_menu_dev"
+        elif role == "Visiteur":
+            # self.manager.current == "main_menu_dev"
+            pass
         

@@ -48,6 +48,10 @@ class IntTreuils(Screen):
 
         layout2.add_widget(Label(text="Treuils", size_hint=(1, None), height=100, bold=True, font_size=40)) 
 
+        layout.add_widget(Label(text="Dénomination :"))
+        layout.add_widget(Label(text="Valeur BE :"))
+        layout.add_widget(Label(text="Valeur Intervenant :"))
+
         layout.add_widget(Label(text="TPH125 0 traction premiere couche statique :"))
         self.TPH125_0_traction_premiere_couche_statique = TextInput(hint_text="", size_hint=(1, None), height=100, multiline=False, readonly=True)
         self.int_TPH125_0_traction_premiere_couche_statique = TextInput(hint_text="",

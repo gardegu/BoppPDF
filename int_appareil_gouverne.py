@@ -48,6 +48,10 @@ class IntAppareilGouverne(Screen):
 
         layout2.add_widget(Label(text="Appareil à gouverner", size_hint=(1, None), height=100, bold=True, font_size=40)) 
 
+        layout.add_widget(Label(text="Dénomination :"))
+        layout.add_widget(Label(text="Valeur BE :"))
+        layout.add_widget(Label(text="Valeur Intervenant :"))
+
         layout.add_widget(Label(text="Schema synoptique :"))
         self.AAG_schema_synoptique = TextInput(hint_text="", size_hint=(1, None), height=100, multiline=False, readonly=True)
         self.int_AAG_schema_synoptique = TextInput(hint_text="", size_hint=(1, None), height=100,

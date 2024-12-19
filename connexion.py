@@ -95,12 +95,15 @@ class Connexion(Screen):
         if user:
             # print(f"Connexion réussie pour {user.user_id} avec le rôle {user.role}.")
             self.show_popup("Connexion réussie", f"{user.user_id} avec le rôle {user.role}")
-            if user.role == "Bureau d'etudes":
+            if user.role == "BE":
                 self.manager.current = 'main_menu'
             elif user.role == "Technicien":
                 self.manager.current = "main_menu_int"
-            else:
+            elif user.role == "Developpeur":
                 self.manager.current = "main_menu_dev"
+            elif user.role == "Visiteur":
+                # self.manager.current == "main_menu_dev"
+                pass
         else:
             # print("Identifiant ou mot de passe incorrect.")
             self.show_popup("Erreur", "Identifiant ou mot de passe incorrect")
@@ -137,17 +140,14 @@ class Connexion(Screen):
         Returns:
             None
         """
-        layout = BoxLayout(orientation='vertical', padding=10, spacing=10)
-        content_label = Label(text=message, size_hint_y=None)
-        content_label.bind(size=content_label.setter('text_size'))
+        layout = BoxLayout(orientation='vertical')
+        label = Label(text=message, color=(1,1,1,1))
+        dismiss_button = Button(text='Fermer')
+        layout.add_widget(label)
+        layout.add_widget(dismiss_button)
 
-        close_button = Button(text="Fermer", size_hint=(0.3,0.2), height=40)
-        close_button.bind(on_press=lambda x: popup.dismiss())
-
-        layout.add_widget(content_label)
-        layout.add_widget(close_button)
-
-        popup = Popup(title=title, content=layout, size_hint=(0.8, 0.4), auto_dismiss=True)
+        popup = Popup(title='Information', content=layout, size_hint=(0.8, 0.4))
+        dismiss_button.bind(on_press=popup.dismiss)
         popup.open()
 
     def toggle_password_visibility(self, instance):
