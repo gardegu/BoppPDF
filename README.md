@@ -1,4 +1,5 @@
 # Tester l'application
+La documentation est disponible au format **html** dans le dossier `doc/html/`. Il suffit de le télécharger en local et d'ouvrir le fichier `annotated.html` dans un navigateur web.
 
 ## Installer l'application
 - l'apk (application compilée) est dans le dossier /bin
