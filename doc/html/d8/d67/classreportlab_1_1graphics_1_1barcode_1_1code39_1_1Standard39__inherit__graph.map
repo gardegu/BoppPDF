@@ -1,0 +1,8 @@
+<map id="reportlab.graphics.barcode.code39.Standard39" name="reportlab.graphics.barcode.code39.Standard39">
+<area shape="rect" id="node1" title=" " alt="" coords="11,273,261,315"/>
+<area shape="rect" id="node5" href="$df/d95/classreportlab_1_1graphics_1_1barcode_1_1lto_1_1BaseLTOLabel.html" title=" " alt="" coords="25,363,247,404"/>
+<area shape="rect" id="node2" href="$d1/d24/classreportlab_1_1graphics_1_1barcode_1_1code39_1_1__Code39Base.html" title=" " alt="" coords="11,184,261,225"/>
+<area shape="rect" id="node3" href="$df/d93/classreportlab_1_1graphics_1_1barcode_1_1common_1_1Barcode.html" title=" " alt="" coords="5,95,267,136"/>
+<area shape="rect" id="node4" href="$dd/d9f/classreportlab_1_1platypus_1_1flowables_1_1Flowable.html" title=" " alt="" coords="30,5,242,47"/>
+<area shape="rect" id="node6" href="$d9/d23/classreportlab_1_1graphics_1_1barcode_1_1lto_1_1VerticalLTOLabel.html" title=" " alt="" coords="25,452,247,493"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="reportlab.graphics.widgetbase.PropHolder" name="reportlab.graphics.widgetbase.PropHolder">
+<area shape="rect" id="node1" title=" " alt="" coords="5,397,228,439"/>
+<area shape="rect" id="node2" href="$d7/dec/classreportlab_1_1graphics_1_1charts_1_1barcharts_1_1BarChartProperties.html" title=" " alt="" coords="278,5,531,47"/>
+<area shape="rect" id="node3" href="$d8/d8c/classreportlab_1_1graphics_1_1charts_1_1legends_1_1SubColProperty.html" title=" " alt="" coords="283,71,526,112"/>
+<area shape="rect" id="node4" href="$d1/daa/classreportlab_1_1graphics_1_1charts_1_1linecharts_1_1LineChartProperties.html" title=" " alt="" coords="277,136,533,177"/>
+<area shape="rect" id="node5" href="$d3/db4/classreportlab_1_1graphics_1_1charts_1_1lineplots_1_1LinePlotProperties.html" title=" " alt="" coords="281,201,529,243"/>
+<area shape="rect" id="node6" href="$df/d75/classreportlab_1_1graphics_1_1charts_1_1piecharts_1_1Wedge3dProperties.html" title=" " alt="" coords="279,267,531,308"/>
+<area shape="rect" id="node7" href="$d1/d00/classreportlab_1_1graphics_1_1charts_1_1piecharts_1_1WedgeProperties.html" title=" " alt="" coords="279,332,531,373"/>
+<area shape="rect" id="node9" href="$dc/df4/classreportlab_1_1graphics_1_1charts_1_1spider_1_1SpokeProperty.html" title=" " alt="" coords="289,397,521,439"/>
+<area shape="rect" id="node10" href="$d0/de1/classreportlab_1_1graphics_1_1charts_1_1spider_1_1StrandProperty.html" title=" " alt="" coords="289,463,521,504"/>
+<area shape="rect" id="node11" href="$db/d17/classreportlab_1_1graphics_1_1charts_1_1textlabels_1_1LabelOffset.html" title=" " alt="" coords="276,528,533,569"/>
+<area shape="rect" id="node12" href="$d9/da4/classreportlab_1_1graphics_1_1widgetbase_1_1CandleStickProperties.html" title=" " alt="" coords="293,593,516,635"/>
+<area shape="rect" id="node13" href="$dd/de9/classreportlab_1_1graphics_1_1widgetbase_1_1StyleProperties.html" title="No longer needed!" alt="" coords="293,659,516,700"/>
+<area shape="rect" id="node14" href="$d4/d05/classreportlab_1_1graphics_1_1widgetbase_1_1TypedPropertyCollection.html" title=" " alt="" coords="293,724,516,765"/>
+<area shape="rect" id="node15" href="$d9/d39/classreportlab_1_1graphics_1_1widgetbase_1_1Widget.html" title=" " alt="" coords="293,995,516,1036"/>
+<area shape="rect" id="node8" href="$d5/d76/classreportlab_1_1graphics_1_1charts_1_1doughnut_1_1SectorProperties.html" title=" " alt="" coords="613,125,866,167"/>
+<area shape="rect" id="node16" href="$dd/dbb/classreportlab_1_1graphics_1_1barcode_1_1dmtx_1_1DataMatrixWidget.html" title=" " alt="" coords="620,191,859,232"/>
+<area shape="rect" id="node17" href="$d8/d24/classreportlab_1_1graphics_1_1barcode_1_1qr_1_1QrCodeWidget.html" title=" " alt="" coords="631,256,848,297"/>
+<area shape="rect" id="node18" href="$d7/d10/classreportlab_1_1graphics_1_1charts_1_1areas_1_1PlotArea.html" title=" " alt="" coords="625,321,853,363"/>
+<area shape="rect" id="node25" href="$d2/d4b/classreportlab_1_1graphics_1_1charts_1_1axes_1_1__AxisG.html" title=" " alt="" coords="628,387,851,428"/>
+<area shape="rect" id="node27" href="$da/d84/classreportlab_1_1graphics_1_1charts_1_1dotbox_1_1DotBox.html" title=" " alt="" coords="621,452,858,493"/>
+<area shape="rect" id="node28" href="$d7/d05/classreportlab_1_1graphics_1_1charts_1_1legends_1_1Legend.html" title=" " alt="" coords="618,517,861,559"/>
+<area shape="rect" id="node29" href="$dd/d7d/classreportlab_1_1graphics_1_1charts_1_1legends_1_1LineSwatch.html" title=" " alt="" coords="618,583,861,624"/>
+<area shape="rect" id="node30" href="$df/d03/classreportlab_1_1graphics_1_1charts_1_1slidebox_1_1SlideBox.html" title=" " alt="" coords="616,648,863,689"/>
+<area shape="rect" id="node31" href="$d0/d79/classreportlab_1_1graphics_1_1charts_1_1textlabels_1_1Label.html" title=" " alt="" coords="611,713,868,755"/>
+<area shape="rect" id="node32" href="$d5/d29/classreportlab_1_1graphics_1_1widgetbase_1_1Face.html" title=" " alt="" coords="613,779,866,806"/>
+<area shape="rect" id="node33" href="$d8/d62/classreportlab_1_1graphics_1_1widgetbase_1_1ScaleWidget.html" title=" " alt="" coords="628,831,851,872"/>
+<area shape="rect" id="node34" href="$dd/d3c/classreportlab_1_1graphics_1_1widgetbase_1_1Sizer.html" title=" " alt="" coords="628,896,851,937"/>
+<area shape="rect" id="node35" href="$dd/d14/classreportlab_1_1graphics_1_1widgetbase_1_1TwoCircles.html" title=" " alt="" coords="628,961,851,1003"/>
+<area shape="rect" id="node36" href="$d2/de2/classreportlab_1_1graphics_1_1widgetbase_1_1TwoFaces.html" title=" " alt="" coords="628,1027,851,1068"/>
+<area shape="rect" id="node37" href="$d0/dbb/classreportlab_1_1graphics_1_1widgets_1_1adjustableArrow_1_1AdjustableArrow.html" title=" " alt="" coords="606,1092,873,1133"/>
+<area shape="rect" id="node38" href="$d0/dfb/classreportlab_1_1graphics_1_1widgets_1_1eventcal_1_1EventCalendar.html" title=" " alt="" coords="610,1157,869,1199"/>
+<area shape="rect" id="node39" href="$dd/d2a/classreportlab_1_1graphics_1_1widgets_1_1grids_1_1DoubleGrid.html" title=" " alt="" coords="622,1223,857,1264"/>
+<area shape="rect" id="node40" href="$d6/d27/classreportlab_1_1graphics_1_1widgets_1_1grids_1_1Grid.html" title=" " alt="" coords="608,1289,871,1315"/>
+<area shape="rect" id="node41" href="$db/d68/classreportlab_1_1graphics_1_1widgets_1_1grids_1_1ShadedPolygon.html" title=" " alt="" coords="622,1340,857,1381"/>
+<area shape="rect" id="node42" href="$d8/dbf/classreportlab_1_1graphics_1_1widgets_1_1grids_1_1ShadedRect.html" title=" " alt="" coords="622,1405,857,1447"/>
+<area shape="rect" id="node43" href="$db/dda/classreportlab_1_1graphics_1_1widgets_1_1markers_1_1Marker.html" title=" " alt="" coords="611,1471,867,1512"/>
+<area shape="rect" id="node44" href="$d7/dff/classreportlab_1_1graphics_1_1widgets_1_1signsandsymbols_1_1__Symbol.html" title=" " alt="" coords="581,1536,897,1577"/>
+<area shape="rect" id="node45" href="$da/de6/classreportlab_1_1graphics_1_1widgets_1_1table_1_1TableWidget.html" title=" " alt="" coords="621,1601,857,1643"/>
+<area shape="rect" id="node46" href="$db/d92/classreportlab_1_1lib_1_1codecharts_1_1CodeWidget.html" title=" " alt="" coords="649,1667,829,1708"/>
+<area shape="rect" id="node47" href="$db/d3b/classreportlab_1_1lib_1_1corp_1_1RL__BusinessCard.html" title=" " alt="" coords="663,1732,816,1773"/>
+<area shape="rect" id="node48" href="$dc/da8/classreportlab_1_1lib_1_1corp_1_1RL__CorpLogo.html" title=" " alt="" coords="663,1797,816,1839"/>
+<area shape="rect" id="node49" href="$db/d0c/classreportlab_1_1lib_1_1corp_1_1RL__CorpLogoThin.html" title=" " alt="" coords="663,1863,816,1904"/>
+<area shape="rect" id="node19" href="$dd/d30/classreportlab_1_1graphics_1_1barcode_1_1eanbc_1_1Ean13BarcodeWidget.html" title=" " alt="" coords="952,125,1195,167"/>
+<area shape="rect" id="node20" href="$d4/d96/classreportlab_1_1graphics_1_1barcode_1_1widgets_1_1__BarcodeWidget.html" title=" " alt="" coords="946,191,1201,232"/>
+<area shape="rect" id="node21" href="$d1/dfc/classreportlab_1_1graphics_1_1charts_1_1barcharts_1_1BarChart.html" title=" " alt="" coords="947,256,1200,297"/>
+<area shape="rect" id="node22" href="$dd/d27/classreportlab_1_1graphics_1_1charts_1_1linecharts_1_1AbstractLineChart.html" title=" " alt="" coords="945,321,1201,363"/>
+<area shape="rect" id="node23" href="$d0/d5f/classreportlab_1_1graphics_1_1charts_1_1piecharts_1_1AbstractPieChart.html" title=" " alt="" coords="947,387,1199,428"/>
+<area shape="rect" id="node24" href="$d9/d39/classreportlab_1_1graphics_1_1charts_1_1spider_1_1SpiderChart.html" title=" " alt="" coords="957,452,1189,493"/>
+<area shape="rect" id="node26" href="$de/d92/classreportlab_1_1graphics_1_1charts_1_1axes_1_1CategoryAxis.html" title=" " alt="" coords="962,517,1185,559"/>
+</map>

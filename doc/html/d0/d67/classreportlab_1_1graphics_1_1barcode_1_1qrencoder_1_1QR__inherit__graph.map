@@ -1,0 +1,12 @@
+<map id="reportlab.graphics.barcode.qrencoder.QR" name="reportlab.graphics.barcode.qrencoder.QR">
+<area shape="rect" id="node1" title=" " alt="" coords="5,274,293,301"/>
+<area shape="rect" id="node2" href="$d6/d1d/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QR8bitByte.html" title=" " alt="" coords="341,5,611,47"/>
+<area shape="rect" id="node3" href="$d9/d8d/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRAlphaNum.html" title=" " alt="" coords="341,71,611,112"/>
+<area shape="rect" id="node4" href="$d7/d40/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRECI.html" title=" " alt="" coords="341,136,611,177"/>
+<area shape="rect" id="node5" href="$dd/d9b/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRFNC1First.html" title=" " alt="" coords="341,201,611,243"/>
+<area shape="rect" id="node6" href="$de/db5/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRFNC1Second.html" title=" " alt="" coords="341,267,611,308"/>
+<area shape="rect" id="node7" href="$d0/da0/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRHanzi.html" title=" " alt="" coords="341,332,611,373"/>
+<area shape="rect" id="node8" href="$d0/dc1/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRKanji.html" title=" " alt="" coords="341,397,611,439"/>
+<area shape="rect" id="node9" href="$da/dac/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRNumber.html" title=" " alt="" coords="341,463,611,504"/>
+<area shape="rect" id="node10" href="$dc/d9c/classreportlab_1_1graphics_1_1barcode_1_1qrencoder_1_1QRStructAppend.html" title=" " alt="" coords="341,528,611,569"/>
+</map>

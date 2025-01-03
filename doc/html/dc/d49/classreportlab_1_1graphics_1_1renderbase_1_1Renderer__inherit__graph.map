@@ -1,0 +1,7 @@
+<map id="reportlab.graphics.renderbase.Renderer" name="reportlab.graphics.renderbase.Renderer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,227,145"/>
+<area shape="rect" id="node2" href="$de/d2a/classreportlab_1_1graphics_1_1renderPDF_1_1__PDFRenderer.html" title=" " alt="" coords="275,5,461,47"/>
+<area shape="rect" id="node3" href="$df/d7f/classreportlab_1_1graphics_1_1renderPM_1_1__PMRenderer.html" title=" " alt="" coords="275,71,461,112"/>
+<area shape="rect" id="node4" href="$d8/df4/classreportlab_1_1graphics_1_1renderPS_1_1__PSRenderer.html" title=" " alt="" coords="275,136,461,177"/>
+<area shape="rect" id="node5" href="$db/d59/classreportlab_1_1graphics_1_1renderSVG_1_1__SVGRenderer.html" title=" " alt="" coords="275,201,461,243"/>
+</map>

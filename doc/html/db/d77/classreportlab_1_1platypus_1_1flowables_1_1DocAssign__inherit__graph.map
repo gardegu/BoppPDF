@@ -1,0 +1,10 @@
+<map id="reportlab.platypus.flowables.DocAssign" name="reportlab.platypus.flowables.DocAssign">
+<area shape="rect" id="node1" title=" " alt="" coords="123,184,335,225"/>
+<area shape="rect" id="node4" href="$db/d38/classreportlab_1_1platypus_1_1flowables_1_1DocExec.html" title=" " alt="" coords="5,273,217,315"/>
+<area shape="rect" id="node5" href="$d9/db1/classreportlab_1_1platypus_1_1flowables_1_1DocPara.html" title=" " alt="" coords="241,273,453,315"/>
+<area shape="rect" id="node2" href="$dd/d8f/classreportlab_1_1platypus_1_1flowables_1_1NullDraw.html" title=" " alt="" coords="123,95,335,136"/>
+<area shape="rect" id="node3" href="$dd/d9f/classreportlab_1_1platypus_1_1flowables_1_1Flowable.html" title=" " alt="" coords="123,5,335,47"/>
+<area shape="rect" id="node6" href="$d0/dfe/classreportlab_1_1platypus_1_1flowables_1_1DocAssert.html" title=" " alt="" coords="123,363,335,404"/>
+<area shape="rect" id="node7" href="$d0/d65/classreportlab_1_1platypus_1_1flowables_1_1DocIf.html" title=" " alt="" coords="359,363,571,404"/>
+<area shape="rect" id="node8" href="$d2/d19/classreportlab_1_1platypus_1_1flowables_1_1DocWhile.html" title=" " alt="" coords="359,452,571,493"/>
+</map>
