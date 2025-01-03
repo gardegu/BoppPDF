@@ -155,6 +155,7 @@ class AppData:
             cls._instance.AAG_RBAB_controle_fin_course_electrique_PX2 = ""
             cls._instance.AAG_RBAB_controle_fonctionnement_indicateurs_angle_passerelle = ""
             cls._instance.AAG_RBAB_controle_fonctionnement_indicateurs_angle_local_barre = ""
+            
             cls._instance.Cb_5T_traction_statique = ""
             cls._instance.Cb_5T_traction_dynamique = ""
             cls._instance.Cb_5T_pression = ""
