@@ -11,6 +11,3 @@ data/
 build/
 media/
 signatures/
-doc/source/
-doc/make.bat
-doc/Makefile
